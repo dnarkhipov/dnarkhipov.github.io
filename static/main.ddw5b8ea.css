@@ -2471,12 +2471,13 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 .person .person-content .person-title {
  font-size:22px;
- font-weight:500
+ font-weight:500;
+ text-transform:unset;
 }
 .person .person-content .person-subtitle {
  font-size:16px;
  font-weight:300;
- text-transform:uppercase
+ text-transform:unset;
 }
 .main-navigation {
  margin:45px -40px;
