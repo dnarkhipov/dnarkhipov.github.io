@@ -54,26 +54,6 @@
  local('Roboto-Medium'),
  url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
 }
-/*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */@font-face {
- font-family:FontAwesome;
- src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);
- src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),
- url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),
- url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),
- url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');
- font-weight:400;
- font-style:normal
-}
-.fa {
- font:normal normal normal 14px/1 FontAwesome;
- font-size:inherit;
- text-rendering:auto;
- -webkit-font-smoothing:antialiased;
- -moz-osx-font-smoothing:grayscale
-}
 .fa-lg {
  font-size:1.33333333em;
  line-height:.75em;
@@ -683,6 +663,9 @@ h6 {
 }
 .fa-facebook:before {
  content:"\f09a"
+}
+.fa-telegram:before {
+ content:"\f2c6"
 }
 .fa-github:before {
  content:"\f09b"
@@ -2072,44 +2055,8 @@ table {
 .highlight .il {
  color:#099
 }
-.tech-icon-angular {
- background:url(../images/tech-icons.03c20ccf.png) no-repeat
-}
-.tech-icon-chef {
- background:url(../images/tech-icons.03c20ccf.png) -35px 0 no-repeat
-}
-.tech-icon-cordova {
- background:url(../images/tech-icons.03c20ccf.png) -70px 0 no-repeat
-}
-.tech-icon-doctrine {
- background:url(../images/tech-icons.03c20ccf.png) -105px 0 no-repeat
-}
-.tech-icon-elasticsearch {
- background:url(../images/tech-icons.03c20ccf.png) -140px 0 no-repeat
-}
-.tech-icon-ionic {
- width:35px;
- height:32px;
- background:url(../images/tech-icons.03c20ccf.png) -175px 0 no-repeat
-}
-.tech-icon-php {
- background:url(../images/tech-icons.03c20ccf.png) -210px 0 no-repeat
-}
-.tech-icon-rails {
- background:url(../images/tech-icons.03c20ccf.png) -245px 0 no-repeat
-}
-.tech-icon-redis {
- background:url(../images/tech-icons.03c20ccf.png) -280px 0 no-repeat
-}
-.tech-icon-symfony {
- background:url(../images/tech-icons.03c20ccf.png) -315px 0 no-repeat
-}
-.tech-icon-websockets {
- background:url(../images/tech-icons.03c20ccf.png) -350px 0 no-repeat
-}
-.tech-icon-wordpress {
- background:url(../images/tech-icons.03c20ccf.png) -385px 0 no-repeat
-}
+
+
 *,
 :after,
 :before {
@@ -2182,7 +2129,7 @@ hr {
 .dl-vertical dt {
  display:block;
  clear:both;
- width:150px
+ width:70px
 }
 .dl-vertical dd {
  display:block;
@@ -2342,11 +2289,11 @@ body {
  left:0;
  position:fixed;
  z-index:2;
- width:25%;
+ width:20%;
  font-size:14px;
- color: #18181a;
+ color: #4b0a02;
  text-align:left;
- background-color: rgb(236, 239, 243)
+ background-color: rgb(242, 242, 242)
 }
 @media screen and (max-width:1000px) {
  .site-sidebar {
@@ -2476,7 +2423,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 .person .person-content .person-subtitle {
  font-size:16px;
- font-weight:300;
+ font-weight:400;
  text-transform:unset;
 }
 .main-navigation {
@@ -2544,13 +2491,13 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  color:#fff
 }
 .main-navigation a {
- color:#ccc;
- color: rgba(28, 26, 26, 0.6);
+ color: #04145D;
+ color: rgb(4, 20, 93);
  display:block
 }
 .main-navigation a:focus,
 .main-navigation a:hover {
- color: #161515
+ color: #04145D
 }
 @media screen and (min-width:1001px) {
  .main-navigation ul li.current:after {
@@ -2574,7 +2521,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  }
 }
 .site-main {
- margin-left:25%
+ margin-left:20%
 }
 .site-main:before {
  position:fixed;
@@ -2585,7 +2532,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  content:" ";
  display:block;
  width:25%;
- background:url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+ background: #bababa;
  background-size:cover
 }
 @media screen and (max-width:1000px) {
@@ -2802,7 +2749,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  left:0;
  right:0;
  z-index:1;
- background:url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+ background: #bababa;
  background-size:cover;
  color:#fff;
  padding-left:110px;
