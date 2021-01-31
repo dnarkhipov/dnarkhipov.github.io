@@ -2458,7 +2458,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  }
 }
 .main-navigation .navigation-extend-bar a {
- display:inline-block
+ display:inline-block;
 }
 .main-navigation .navigation-extend-bar .navigation-extend-button {
  width:50%
@@ -2488,7 +2488,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 .main-navigation ul li a:hover,
 .main-navigation ul li.current a {
- color:#fff
+ color: #8a8b00
 }
 .main-navigation a {
  color: #04145D;
